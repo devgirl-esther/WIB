@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p className="copyright">
-          Copyright © 2024 Women Bitcoin Club - All rights reserved.
+          Copyright © 2025 Women Bitcoin Club - All rights reserved.
         </p>
       </div>
     </footer>
