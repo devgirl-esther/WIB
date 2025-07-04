@@ -5,8 +5,8 @@ import './Home.css';
 import homepicture1 from '../../../assets/heropicture1.jpeg'
 import homepicture2 from '../../../assets/heropicture2.jpeg'
 import homepicture3 from '../../../assets/heropicture3.jpeg'
-import homepicture4 from '../../../assets/heropicture6.jpeg'
-import homepicture5 from '../../../assets/heropicture7.jpeg'
+import homepicture4 from '../../../assets/heropicture6.jpg'
+import homepicture5 from '../../../assets/heropicture7.jpg'
 import grace from '../../../assets/grace.jpeg'
 import eky from '../../../assets/eky.jpeg'
 import olajumoke from '../../../assets/olajumoke.jpeg'
@@ -80,8 +80,8 @@ const Home = () => {
     }
     ,
     {
-      id:4 ,
-      img: homepicture4
+      id:5 ,
+      img: homepicture5
     }
   ]
 
