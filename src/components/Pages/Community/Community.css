@@ -1,0 +1,122 @@
+.community {
+  background-color: #f3b6d3;
+  color: black;
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.community-title h1 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+
+.becomementor {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.leadchapter {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.becomementor-title h2, 
+.leadchapter-title h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 span {
+  color: #fa4e9d;
+}
+
+
+.communityimage,
+.leadimage,
+.becomementorimage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#becomemember {
+  background-color: #fa4e9d;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.becomementor button {
+  background-color: #fa4e9d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.leadchapter button {
+  background-color: #fa4e9d;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: 1.5rem;
+}
+
+#becomemember:hover,
+.becomementor button:hover,
+.leadchapter button:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+  .community {
+    padding: 4rem 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .community-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .becomementor-title h2, 
+  .leadchapter-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .communityimage, .leadimage, .becomementorimage {
+    width: 90%;
+  }
+}

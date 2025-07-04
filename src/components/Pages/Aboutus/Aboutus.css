@@ -1,0 +1,94 @@
+.about {
+  background-color: #FFF5F9;
+  color: black;
+  padding: 6rem;
+  text-align: center;
+}
+
+.about-title h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+span {
+  color: #FA4E9D;
+}
+
+.who {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.who-title h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.who-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.missiongrid,
+.visiongrid {
+  background-color: #111111;
+  padding: 1.5rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+h3 {
+  margin: 10px;
+  text-align: start;
+}
+
+.missiongrid p,
+.visiongrid p {
+  margin: 10px;
+  text-align: start;
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 2rem;
+  }
+
+  .about-title h2 {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+  }
+
+  .who {
+    padding: 2rem 4rem;
+    
+  }
+
+  .who-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .missiongrid,
+  .visiongrid {
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
