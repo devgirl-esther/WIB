@@ -41,7 +41,7 @@ const Blog = () => {
     },
     {
       id: 5,
-      title: "Wallets, Tokens and the Cryptoverse",
+      title: "Bitcoin for Her, How African Women are leveraging Bitcoin",
       date: "January 22, 2025",
       image: ledgersandwalletarticle,
       content: "This is the content for Article 2."

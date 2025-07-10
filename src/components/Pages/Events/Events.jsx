@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Events.css";
-import noevent from "../../../assets/noevent.png";
+import event from "../../../assets/WBC5.png";
 import eventimage1 from '../../../assets/eventimage1.png'
 import eventimage2 from '../../../assets/eventimage2.png'
 import eventimage3 from '../../../assets/eventimage3.png'
@@ -14,7 +14,7 @@ const Event = () => {
         <h2>Upcoming Events</h2>
       </div>
       <div>
-        <img className="noevent" src={noevent} alt="noevent" />
+        <img className="noevent" src={event} alt="noevent" />
       </div>
       <h2 className="eventgallery">Images from Past Events</h2>
       <div className="image-container">
