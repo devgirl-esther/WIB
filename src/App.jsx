@@ -6,7 +6,7 @@ import Partner from './components/Pages/Partner/Partner'
 import Event from './components/Pages/Events/Events';
 import Community from './components/Pages/Community/Community';
 import Blog from './components/Pages/Blog/Blog';
-import Article from './components/Pages/Blog/Article';
+import ArticleDetail from './components/Pages/Blog/ArticleDetail';
 import DefaultLayout from './layout/DefaultLayout';
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/events" element={<Event />} /> 
           <Route path="/community" element={<Community/>} />
           <Route path="/blog" element={<Blog/>}/>
-          <Route path="/article/:id" element={<Article />} /> 
+          <Route path="/article/:id" element={<ArticleDetail />} />
           </Route>
         </Routes>
         </Router>
